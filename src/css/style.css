@@ -14,10 +14,11 @@ body {
   background-color: rgb(243, 210, 167);
   font-family: Inter;
   font-style: normal;
+  /* border: 1px solid green; */
 }
 
 .container {
-  width: 65%;
+  width: 80%;
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -26,6 +27,7 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
+  /* border: 1px solid green; */
 }
 
 .nav {
@@ -33,7 +35,7 @@ body {
   padding: 2rem;
 }
 
-.nav a{
+a{
   text-decoration: none;
 }
 
@@ -154,5 +156,93 @@ body {
   padding: 12px 22px 13px 22px;
   font-size: 1rem;
   font-weight: 700;
+  line-height: 23.919px;
+}
+
+.all-vans__title{
+  margin-top: 0;
+  color: #161616;
+    /* font-family: Inter; */
+    font-size: 2.25rem;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: 33.652px; */
+    /* 105.164% */
+    padding: 0 2rem;
+}
+
+.vans{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.5rem;
+  padding: 2rem;
+}
+
+
+.van__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.van__info{
+  color: #161616;
+  font-size: 0.75rem;
+  font-weight: 600;
+  /* line-height: 31.662px; */
+  /* margin-bottom: 0; */
+  /* padding: 0; */
+  
+}
+
+.van__per-day{
+  text-align: right;
+  /* margin-top: 0; */
+  /* margin-bottom: 0.5rem; */
+  /* padding-bottom: 0; */
+  /* height: 90%; */
+  /* border: 1px solid brown; */
+  color: #161616;
+  font-family: Inter;
+  font-size: 0.8rem;
+  font-weight: 500;
+  /* line-height: 31.662px; */
+}
+
+.van h2{
+  margin-bottom: 0;
+}
+
+.van__type{
+  padding: 0.5em 1.5em;
+  border-radius: 5px;
+  /* background: #E17654; */
+  color: #FFEAD0;
+  border: none;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+
+.van__btn{
+  background: #FF8C38;
+  color: #FFF;
+  font-size: 1.35rem;
+  width: 100%;
+}
+
+.van-details{
+  padding: 0 2rem 2rem 2rem;
+}
+
+.margin{
+  margin-top: 1rem;
+}
+
+.van__desc{
+  color: #161616;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 23.919px;
 }
